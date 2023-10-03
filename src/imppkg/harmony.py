@@ -1,8 +1,6 @@
 import sys
-
 #from termcolor import cprint
-
-from imppkg.harmonic_mean import harmonic_mean
+from .harmonic_mean import harmonic_mean
 
 
 def main():
@@ -15,5 +13,6 @@ def main():
 
     try:
         result = harmonic_mean(nums)
+        print(result)
     except ZeroDivisionError:
         pass
