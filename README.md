@@ -12,3 +12,10 @@ create my first sample python package
 
 
 ```
+
+
+### tox
+
+```
+tox -e get_my_ip
+```
