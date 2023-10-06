@@ -1,0 +1,11 @@
+name: My first workflow
+on:
+  - push
+jobs:
+  say-hello:
+    name: say-hello
+    run-on: ubuntu-latest
+    steps:
+      - uses: actions.checkout@v3
+      - name: say say-hello
+        run: echo "hello"
