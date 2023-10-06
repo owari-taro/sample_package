@@ -4,7 +4,7 @@ on:
 jobs:
   say-hello:
     name: say-hello
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: say say-hello
